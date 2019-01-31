@@ -1,0 +1,33 @@
+{  
+	"defaultSeverity":"error",
+	"extends":[  
+		"tslint:latest",
+		"tslint-plugin-prettier",
+        "tslint-config-prettier"
+	],
+	"jsRules":{  
+
+	},
+	"rules":{  
+		"import/no-unresolved":[  
+			2,
+			{  
+				"commonjs":true,
+				"amd":true
+			}
+		],
+		"no-console":0,
+		"prettier":[  
+			true,
+			{  
+				"singleQuote":true,
+				"printWidth":100
+			}
+		],
+		"object-literal-sort-keys":false,
+		"interface-name":false
+	},
+	"rulesDirectory":[  
+
+	]
+}
